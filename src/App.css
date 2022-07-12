@@ -1,0 +1,149 @@
+
+@media screen and (max-width: 400px){
+#kandzi{
+ width:300px;
+ height:14px;
+ font-size:20px;
+ border:15px solid white;
+ margin:20px;
+ padding:5px;
+  
+}
+#blockkandzi{
+  font-size: 20px;
+  border-right:1.5px solid black;
+  width: 100px;
+  height:80px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+
+}
+#contkandzibutton{
+  
+  display:flex;
+  justify-content: center;
+  padding:10px;
+ 
+}
+#buttonkandzi{
+  width:100px;
+  height:30px;
+  font-size:15px;
+  background-color: white;
+  border:none;
+  font-style: none;
+  
+}
+#contadd{
+  display:flex;
+  justify-content: flex-start;
+}
+input[id*="add"] {
+  position:relative;
+color:red;
+
+}
+
+input[type=file]:before {
+   content: "Выбрать файл";
+    width:100px;
+    
+    left:0px;
+    padding: 5px;
+    top: 393px;
+    display: inline-block;
+    
+    background-color: white;
+    color:black;
+    
+    
+    cursor: pointer;
+    visibility:visible;
+    position: absolute;
+}
+#buttonkandzi:hover{
+  transform:scale(1.1)
+}
+#blockphoto{
+  width:380px;
+  height:auto;
+  background-color: white;
+  color:black;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:10px;
+}
+#blockread{
+  font-size:15px;
+  position:relative;
+  left:9px;
+  width:230px;
+  padding:10px;
+  border-bottom:1px solid black;
+  display:flex;
+  justify-content:center;
+}
+
+#blocktranslate{
+  font-size:15px;
+  position:relative;
+  left:9px;
+  width:230px;
+  padding:10px;
+  border-top:1px solid black;
+  display:flex;
+  justify-content:center;
+  
+}
+#block{
+  background-color: white;
+  color:black;
+  display:flex;
+  gap:5px;
+  padding-left:20px;
+  padding-top:5px;
+  padding-bottom:5px;
+  align-items:center;
+}
+#kandzitext{
+  display:flex;
+  justify-content: center;
+  
+}
+#kandziinput{
+  
+  display:flex;
+  justify-content:center;
+}
+#readinput{
+  
+  display:flex;
+  justify-content:center;
+}
+#translateinput{
+  
+  display:flex;
+  justify-content:center;
+}
+#read{
+  width:300px;
+  height:14px;
+  font-size:20px;
+  border:15px solid white;
+  margin:20px;
+  padding:5px;
+   
+ }
+ #translate{
+  width:300px;
+  height:14px;
+  font-size:20px;
+  border:15px solid white;
+  margin:20px;
+  padding:5px;
+   
+ }
+}
+
